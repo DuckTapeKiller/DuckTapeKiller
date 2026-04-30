@@ -10,6 +10,7 @@
 
   [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=DuckTapeKiller&theme=transparent&hide_border=false&stroke=ffffff&background=00000000&ring=ffffff&fire=ffffff&currStreakNum=ffffff&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&currStreakLabel=ffffff&border=ffffff&border_radius=0)](https://git.io/streak-stats)
 </div>
+
 ◈  **Philosophy**
 I build for the user who treats their vault as a workspace, not a mood board. Every plugin and theme I ship follows the same operating principle: the interface should disappear. Controls should be where you expect them. Typography should not demand attention. Structure should be visible without being decorative.
 
