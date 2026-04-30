@@ -84,3 +84,21 @@ Browse and import Jellyfin media server metadata into a visual poster grid withi
 
 </div>
 
+
+
+<!-- RELEASE-STATS:START -->
+| Repository | Latest | Releases | Downloads | Chart |
+|------------|--------|----------|-----------|-------|
+| [Brutalist](https://github.com/DuckTapeKiller/Brutalist) | `v4.0.5` | 33 | 673 | `████████████████████` |
+| [obsidian-aubade](https://github.com/DuckTapeKiller/obsidian-aubade) | `v3.0.4` | 25 | 652 | `███████████████████░` |
+| [obsidian-reader-highlighter-tags](https://github.com/DuckTapeKiller/obsidian-reader-highlighter-tags) | `1.0.0` | 1 | 224 | `███████░░░░░░░░░░░░░` |
+| [obsidian-book-search-plus](https://github.com/DuckTapeKiller/obsidian-book-search-plus) | `1.0.5` | 6 | 201 | `██████░░░░░░░░░░░░░░` |
+| [obsidian-jellyfin-integration](https://github.com/DuckTapeKiller/obsidian-jellyfin-integration) | `1.0.0` | 1 | 61 | `██░░░░░░░░░░░░░░░░░░` |
+| [obsidian-bulk-tag-manager](https://github.com/DuckTapeKiller/obsidian-bulk-tag-manager) | `1.0.1` | 2 | 59 | `██░░░░░░░░░░░░░░░░░░` |
+| [obsidian-easyview](https://github.com/DuckTapeKiller/obsidian-easyview) | `1.0.0` | 1 | 13 | `░░░░░░░░░░░░░░░░░░░░` |
+| [obsidian-kindle-importer-plus](https://github.com/DuckTapeKiller/obsidian-kindle-importer-plus) | `1.0.0` | 1 | 13 | `░░░░░░░░░░░░░░░░░░░░` |
+| [obsidian-etymology-multilingual](https://github.com/DuckTapeKiller/obsidian-etymology-multilingual) | `v1.0.0` | 1 | 9 | `░░░░░░░░░░░░░░░░░░░░` |
+| [obsidian-kindle-export](https://github.com/DuckTapeKiller/obsidian-kindle-export) | `1.0.0` | 1 | 6 | `░░░░░░░░░░░░░░░░░░░░` |
+
+> **Total downloads across all releases: 1,911**
+<!-- RELEASE-STATS:END -->
