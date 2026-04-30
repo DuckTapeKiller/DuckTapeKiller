@@ -71,5 +71,12 @@ Browse and import Jellyfin media server metadata into a visual poster grid withi
 
 
 <!-- OBSIDIAN-PRS:START -->
-_No open PRs on obsidian-releases._
+| PR | Title | Status |
+| :--- | :--- | :--- |
+| #10016 | [Add theme: Aubade](https://github.com/obsidianmd/obsidian-releases/pull/10016) | open |
+| #9569 | [Add plugin: EasyView](https://github.com/obsidianmd/obsidian-releases/pull/9569) | open |
+| #9568 | [Add plugin: Bulk Tag Manager](https://github.com/obsidianmd/obsidian-releases/pull/9568) | open |
+| #9567 | [Add plugin: Kindle Highlights Importer Plus](https://github.com/obsidianmd/obsidian-releases/pull/9567) | open |
+| #9566 | [Add plugin: Book Search Plus](https://github.com/obsidianmd/obsidian-releases/pull/9566) | open |
+| #9565 | [Add plugin: Reader Highlighter Tags](https://github.com/obsidianmd/obsidian-releases/pull/9565) | open |
 <!-- OBSIDIAN-PRS:END -->
