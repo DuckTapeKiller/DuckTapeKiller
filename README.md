@@ -71,4 +71,5 @@ Browse and import Jellyfin media server metadata into a visual poster grid withi
 
 
 <!-- OBSIDIAN-PRS:START -->
+_No open PRs on obsidian-releases._
 <!-- OBSIDIAN-PRS:END -->
