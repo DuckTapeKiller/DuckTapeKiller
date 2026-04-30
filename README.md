@@ -1,14 +1,5 @@
 <div align="center">
-<pre>
-╔══════════════════════════════════════════════╗
-║                                              ║
-║   ◆  D U C K T A P E K I L L E R  ◆         ║
-║                                              ║
-║   Obsidian Plugin & Theme Developer          ║
-║   Building tools that get out of the way.   ║
-║                                              ║
-╚══════════════════════════════════════════════╝
-</pre>
+  <img src="assets/banner.png" alt="DuckTapeKiller" width="100%">
 </div>
 
 [![GitHub Stats](https://github-readme-stats.vercel.app/api?username=DuckTapeKiller&show_icons=true&theme=transparent&hide_border=false&title_color=ffffff&text_color=ffffff&icon_color=ffffff&border_color=ffffff&border_radius=0)](https://github.com/anuraghazra/github-readme-stats)
