@@ -1,8 +1,5 @@
-<!--  ╔══════════════════════════════════════════════════════════════╗  -->
-<!--  ║              DuckTapeKiller / GitHub Profile                 ║  -->
-<!--  ╚══════════════════════════════════════════════════════════════╝  -->
 <div align="center">
-
+<pre>
 ╔══════════════════════════════════════════════╗
 ║                                              ║
 ║   ◆  D U C K T A P E K I L L E R  ◆         ║
@@ -11,6 +8,8 @@
 ║   Building tools that get out of the way.   ║
 ║                                              ║
 ╚══════════════════════════════════════════════╝
+</pre>
+</div>
 
 [![GitHub Stats](https://github-readme-stats.vercel.app/api?username=DuckTapeKiller&show_icons=true&theme=transparent&hide_border=false&title_color=ffffff&text_color=ffffff&icon_color=ffffff&border_color=ffffff&border_radius=0)](https://github.com/anuraghazra/github-readme-stats)
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=DuckTapeKiller&layout=compact&theme=transparent&hide_border=false&title_color=ffffff&text_color=ffffff&icon_color=ffffff&border_color=ffffff&border_radius=0)](https://github.com/anuraghazra/github-readme-stats)
@@ -73,9 +72,6 @@ Browse and import Jellyfin media server metadata into a visual poster grid withi
 ◉  **Stack**
 ![TypeScript](https://img.shields.io/badge/TypeScript-black?style=flat-square&logo=typescript) ![CSS3](https://img.shields.io/badge/CSS3-black?style=flat-square&logo=css3) ![Node.js](https://img.shields.io/badge/Node.js-black?style=flat-square&logo=nodedotjs) ![Jellyfin](https://img.shields.io/badge/Jellyfin-black?style=flat-square&logo=jellyfin)
 
-<div align="center">▪ ▪ ▪ ▪ ▪ ▪ ▪ ▪ ▪ ▪ ▪ ▪ ▪ ▪ ▪ ▪ ▪ ▪ ▪ ▪ ▪ ▪ ▪ ▪ ▪ ▪ ▪ ▪
-Everything sharp. Nothing soft. Zero ornamentation for its own sake.
-
-▪ ▪ ▪ ▪ ▪ ▪ ▪ ▪ ▪ ▪ ▪ ▪ ▪ ▪ ▪ ▪ ▪ ▪ ▪ ▪ ▪ ▪ ▪ ▪ ▪ ▪ ▪ ▪
+<div align="center">
 
 </div>
