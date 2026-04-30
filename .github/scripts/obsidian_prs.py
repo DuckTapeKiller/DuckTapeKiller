@@ -1,89 +1,62 @@
 import os
-import re
 import requests
+import re
 
-USERNAME = os.environ["GITHUB_USERNAME"]
-TOKEN = os.environ["GITHUB_TOKEN"]
-README = "README.md"
+def update_obsidian_prs():
+    token = os.environ.get("GITHUB_TOKEN")
+    username = os.environ.get("GITHUB_USERNAME", "DuckTapeKiller")
+    repo = "obsidianmd/obsidian-releases"
+    readme_path = "README.md"
 
-headers = {
-    "Authorization": f"token {TOKEN}",
-    "Accept": "application/vnd.github+json"
-}
+    # Search API is more robust for finding PRs by specific authors in large repos
+    query = f"is:pr is:open author:{username} repo:{repo}"
+    url = f"https://api.github.com/search/issues?q={query}"
+    
+    headers = {
+        "Authorization": f"token {token}",
+        "Accept": "application/vnd.github.v3+json"
+    }
 
-def get_my_prs():
-    r = requests.get(
-        "https://api.github.com/repos/obsidianmd/obsidian-releases/pulls",
-        headers=headers,
-        params={"state": "open", "per_page": 100}
-    )
-    return [pr for pr in r.json() if pr["user"]["login"] == USERNAME]
+    response = requests.get(url, headers=headers)
+    
+    if response.status_code != 200:
+        print(f"API Error: {response.status_code} - {response.text}")
+        return
 
-def get_review_status(pr_number):
-    r = requests.get(
-        f"https://api.github.com/repos/obsidianmd/obsidian-releases/pulls/{pr_number}/reviews",
-        headers=headers
-    )
-    reviews = r.json()
-    if not reviews:
-        return "⏳ Awaiting Review"
-    latest = reviews[-1]["state"]
-    return {
-        "APPROVED": "✅ Approved",
-        "CHANGES_REQUESTED": "🔴 Changes Requested",
-        "COMMENTED": "💬 Comment Left",
-        "DISMISSED": "❌ Dismissed"
-    }.get(latest, "⏳ Awaiting Review")
+    # Search API returns results in the 'items' key
+    data = response.json()
+    prs = data.get("items", [])
 
-def get_type(pr):
-    files_r = requests.get(
-        f"https://api.github.com/repos/obsidianmd/obsidian-releases/pulls/{pr['number']}/files",
-        headers=headers
-    )
-    files = [f["filename"] for f in files_r.json()]
-    if any("community-css-themes" in f for f in files):
-        return "🎨 Theme"
-    if any("community-plugins" in f for f in files):
-        return "🔌 Plugin"
-    return "❓ Unknown"
-
-def build_table(prs):
     if not prs:
-        return "_No open PRs on obsidian-releases._"
-
-    lines = [
-        "| Name | Type | Status | Opened | PR |",
-        "|------|------|--------|--------|----|"
-    ]
-
-    for pr in prs:
-        name = pr["title"]
-        number = pr["number"]
-        opened = pr["created_at"][:10]
-        status = get_review_status(number)
-        kind = get_type(pr)
-        url = pr["html_url"]
-        lines.append(f"| {name} | {kind} | {status} | {opened} | [#{number}]({url}) |")
-
-    return "\n".join(lines)
-
-def update_readme(content):
-    with open(README, "r") as f:
-        readme = f.read()
-
-    start = "<!-- OBSIDIAN-PRS:START -->"
-    end = "<!-- OBSIDIAN-PRS:END -->"
-    block = f"{start}\n{content}\n{end}"
-
-    if start in readme:
-        readme = re.sub(f"{re.escape(start)}.*?{re.escape(end)}", block, readme, flags=re.DOTALL)
+        new_content = "_No open PRs on obsidian-releases._"
     else:
-        readme += f"\n\n{block}\n"
+        table = ["| PR | Title | Status |", "| :--- | :--- | :--- |"]
+        for pr in prs:
+            table.append(f"| #{pr['number']} | [{pr['title']}]({pr['html_url']}) | {pr['state']} |")
+        new_content = "\n".join(table)
 
-    with open(README, "w") as f:
-        f.write(readme)
+    if not os.path.exists(readme_path):
+        print("README.md not found.")
+        return
 
-prs = get_my_prs()
-table = build_table(prs)
-update_readme(table)
-print(f"Found {len(prs)} PR(s).")
+    with open(readme_path, "r", encoding="utf-8") as f:
+        readme_text = f.read()
+
+    start_tag = "<!-- OBSIDIAN-PRS:START -->"
+    end_tag = "<!-- OBSIDIAN-PRS:END -->"
+    
+    pattern = f"{re.escape(start_tag)}.*?{re.escape(end_tag)}"
+    replacement = f"{start_tag}\n{new_content}\n{end_tag}"
+    
+    if not re.search(pattern, readme_text, flags=re.DOTALL):
+        print("Markers not found in README.md. Ensure they exist!")
+        return
+
+    updated_readme = re.sub(pattern, replacement, readme_text, flags=re.DOTALL)
+
+    with open(readme_path, "w", encoding="utf-8") as f:
+        f.write(updated_readme)
+    print("Successfully updated README.md")
+
+if __name__ == "__main__":
+    update_obsidian_prs()
