@@ -33,16 +33,16 @@
 |------------|--------|----------|-----------|-------|
 | [Brutalist](https://github.com/DuckTapeKiller/Brutalist) | `v4.0.6` | 34 | 673 | `████████████████████` |
 | [obsidian-aubade](https://github.com/DuckTapeKiller/obsidian-aubade) | `v3.0.4` | 25 | 663 | `████████████████████` |
-| [obsidian-reader-highlighter-tags](https://github.com/DuckTapeKiller/obsidian-reader-highlighter-tags) | `1.0.0` | 1 | 257 | `████████░░░░░░░░░░░░` |
-| [obsidian-book-search-plus](https://github.com/DuckTapeKiller/obsidian-book-search-plus) | `1.0.5` | 6 | 239 | `███████░░░░░░░░░░░░░` |
-| [obsidian-jellyfin-integration](https://github.com/DuckTapeKiller/obsidian-jellyfin-integration) | `1.0.0` | 1 | 74 | `██░░░░░░░░░░░░░░░░░░` |
-| [obsidian-bulk-tag-manager](https://github.com/DuckTapeKiller/obsidian-bulk-tag-manager) | `1.0.1` | 2 | 68 | `██░░░░░░░░░░░░░░░░░░` |
-| [obsidian-easyview](https://github.com/DuckTapeKiller/obsidian-easyview) | `1.0.0` | 1 | 17 | `█░░░░░░░░░░░░░░░░░░░` |
+| [obsidian-reader-highlighter-tags](https://github.com/DuckTapeKiller/obsidian-reader-highlighter-tags) | `1.0.1` | 2 | 266 | `████████░░░░░░░░░░░░` |
+| [obsidian-book-search-plus](https://github.com/DuckTapeKiller/obsidian-book-search-plus) | `1.0.6` | 7 | 256 | `████████░░░░░░░░░░░░` |
+| [obsidian-jellyfin-integration](https://github.com/DuckTapeKiller/obsidian-jellyfin-integration) | `1.0.0` | 1 | 75 | `██░░░░░░░░░░░░░░░░░░` |
+| [obsidian-bulk-tag-manager](https://github.com/DuckTapeKiller/obsidian-bulk-tag-manager) | `1.0.1` | 2 | 71 | `██░░░░░░░░░░░░░░░░░░` |
+| [obsidian-easyview](https://github.com/DuckTapeKiller/obsidian-easyview) | `1.0.0` | 1 | 18 | `█░░░░░░░░░░░░░░░░░░░` |
 | [obsidian-kindle-importer-plus](https://github.com/DuckTapeKiller/obsidian-kindle-importer-plus) | `1.0.0` | 1 | 13 | `░░░░░░░░░░░░░░░░░░░░` |
 | [obsidian-etymology-multilingual](https://github.com/DuckTapeKiller/obsidian-etymology-multilingual) | `v1.0.0` | 1 | 10 | `░░░░░░░░░░░░░░░░░░░░` |
 | [obsidian-kindle-export](https://github.com/DuckTapeKiller/obsidian-kindle-export) | `1.0.0` | 1 | 6 | `░░░░░░░░░░░░░░░░░░░░` |
 
-> **Total downloads across all releases: 2,020**
+> **Total downloads across all releases: 2,051**
 <!-- RELEASE-STATS:END -->
 
 </div>
