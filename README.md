@@ -33,16 +33,16 @@
 |------------|--------|----------|-----------|-------|
 | [Brutalist](https://github.com/DuckTapeKiller/Brutalist) | `v4.0.6` | 34 | 673 | `████████████████████` |
 | [obsidian-aubade](https://github.com/DuckTapeKiller/obsidian-aubade) | `v3.0.4` | 25 | 663 | `████████████████████` |
-| [obsidian-reader-highlighter-tags](https://github.com/DuckTapeKiller/obsidian-reader-highlighter-tags) | `1.0.1` | 2 | 297 | `█████████░░░░░░░░░░░` |
-| [obsidian-book-search-plus](https://github.com/DuckTapeKiller/obsidian-book-search-plus) | `1.0.6` | 7 | 289 | `█████████░░░░░░░░░░░` |
-| [obsidian-bulk-tag-manager](https://github.com/DuckTapeKiller/obsidian-bulk-tag-manager) | `1.0.1` | 2 | 86 | `███░░░░░░░░░░░░░░░░░` |
+| [obsidian-reader-highlighter-tags](https://github.com/DuckTapeKiller/obsidian-reader-highlighter-tags) | `1.0.1` | 2 | 309 | `█████████░░░░░░░░░░░` |
+| [obsidian-book-search-plus](https://github.com/DuckTapeKiller/obsidian-book-search-plus) | `1.0.6` | 7 | 298 | `█████████░░░░░░░░░░░` |
+| [obsidian-bulk-tag-manager](https://github.com/DuckTapeKiller/obsidian-bulk-tag-manager) | `1.0.1` | 2 | 88 | `███░░░░░░░░░░░░░░░░░` |
 | [obsidian-jellyfin-integration](https://github.com/DuckTapeKiller/obsidian-jellyfin-integration) | `1.0.0` | 1 | 76 | `██░░░░░░░░░░░░░░░░░░` |
 | [obsidian-easyview](https://github.com/DuckTapeKiller/obsidian-easyview) | `1.0.0` | 1 | 22 | `█░░░░░░░░░░░░░░░░░░░` |
 | [obsidian-kindle-importer-plus](https://github.com/DuckTapeKiller/obsidian-kindle-importer-plus) | `1.0.0` | 1 | 14 | `░░░░░░░░░░░░░░░░░░░░` |
 | [obsidian-etymology-multilingual](https://github.com/DuckTapeKiller/obsidian-etymology-multilingual) | `v1.0.0` | 1 | 10 | `░░░░░░░░░░░░░░░░░░░░` |
 | [obsidian-kindle-export](https://github.com/DuckTapeKiller/obsidian-kindle-export) | `1.0.0` | 1 | 6 | `░░░░░░░░░░░░░░░░░░░░` |
 
-> **Total downloads across all releases: 2,136**
+> **Total downloads across all releases: 2,159**
 <!-- RELEASE-STATS:END -->
 
 </div>
