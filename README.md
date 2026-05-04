@@ -32,18 +32,18 @@
 | Repository | Latest | Releases | Downloads | Chart |
 |------------|--------|----------|-----------|-------|
 | [Brutalist](https://github.com/DuckTapeKiller/Brutalist) | `v4.0.6` | 34 | 674 | `████████████████████` |
-| [obsidian-aubade](https://github.com/DuckTapeKiller/obsidian-aubade) | `v3.0.4` | 25 | 666 | `████████████████████` |
-| [obsidian-reader-highlighter-tags](https://github.com/DuckTapeKiller/obsidian-reader-highlighter-tags) | `1.0.1` | 2 | 338 | `██████████░░░░░░░░░░` |
-| [obsidian-book-search-plus](https://github.com/DuckTapeKiller/obsidian-book-search-plus) | `1.0.6` | 7 | 332 | `██████████░░░░░░░░░░` |
-| [obsidian-bulk-tag-manager](https://github.com/DuckTapeKiller/obsidian-bulk-tag-manager) | `1.0.1` | 2 | 95 | `███░░░░░░░░░░░░░░░░░` |
-| [obsidian-jellyfin-integration](https://github.com/DuckTapeKiller/obsidian-jellyfin-integration) | `1.0.0` | 1 | 85 | `███░░░░░░░░░░░░░░░░░` |
+| [obsidian-aubade](https://github.com/DuckTapeKiller/obsidian-aubade) | `v3.0.4` | 25 | 668 | `████████████████████` |
+| [obsidian-reader-highlighter-tags](https://github.com/DuckTapeKiller/obsidian-reader-highlighter-tags) | `1.0.1` | 2 | 345 | `██████████░░░░░░░░░░` |
+| [obsidian-book-search-plus](https://github.com/DuckTapeKiller/obsidian-book-search-plus) | `1.0.6` | 7 | 338 | `██████████░░░░░░░░░░` |
+| [obsidian-bulk-tag-manager](https://github.com/DuckTapeKiller/obsidian-bulk-tag-manager) | `1.0.1` | 2 | 97 | `███░░░░░░░░░░░░░░░░░` |
+| [obsidian-jellyfin-integration](https://github.com/DuckTapeKiller/obsidian-jellyfin-integration) | `1.0.0` | 1 | 86 | `███░░░░░░░░░░░░░░░░░` |
 | [obsidian-easyview](https://github.com/DuckTapeKiller/obsidian-easyview) | `1.0.0` | 1 | 29 | `█░░░░░░░░░░░░░░░░░░░` |
 | [obsidian-kindle-importer-plus](https://github.com/DuckTapeKiller/obsidian-kindle-importer-plus) | `1.0.0` | 1 | 14 | `░░░░░░░░░░░░░░░░░░░░` |
 | [obsidian-etymology-multilingual](https://github.com/DuckTapeKiller/obsidian-etymology-multilingual) | `v1.0.0` | 1 | 10 | `░░░░░░░░░░░░░░░░░░░░` |
+| [horme](https://github.com/DuckTapeKiller/horme) | `1.0.1` | 2 | 6 | `░░░░░░░░░░░░░░░░░░░░` |
 | [obsidian-kindle-export](https://github.com/DuckTapeKiller/obsidian-kindle-export) | `1.0.0` | 1 | 6 | `░░░░░░░░░░░░░░░░░░░░` |
-| [horme](https://github.com/DuckTapeKiller/horme) | `1.0.0` | 1 | 3 | `░░░░░░░░░░░░░░░░░░░░` |
 
-> **Total downloads across all releases: 2,252**
+> **Total downloads across all releases: 2,273**
 <!-- RELEASE-STATS:END -->
 
 </div>
